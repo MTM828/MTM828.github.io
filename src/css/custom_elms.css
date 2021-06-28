@@ -1,0 +1,77 @@
+iframe[src*="nav.html"] {
+    height: 81px;
+    border: 0px;
+    width: 100%;
+}
+iframe[src*="footer.html"] {
+    height: 121px;
+    border: 0px;
+    width: 100%;
+}
+
+.centered {
+    align-content: center;
+    text-align: center;
+    margin: auto;
+}
+.special {
+    color: var(--special-text-color);
+}
+.hidden {
+    display: none;
+}
+.huge {
+    font-size: 400%;
+}
+
+.langs {
+    justify-content: space-evenly;
+    width: fit-content;
+    flex-wrap: wrap;
+    flex-shrink: 0;
+    display: flex;
+    margin: auto;
+}
+.langs img {
+    object-fit: scale-down;
+    padding: 10px;
+    height: 75px;
+}
+
+ul.discussion {
+    width: fit-content;
+    margin: auto;
+}
+ul.discussion li {
+    background-color: var(--special-bg-color);
+    width: fit-content;
+    padding: 15px;
+}
+ul.discussion li::before {
+    display: none;
+}
+ul.discussion li.left {
+    left: 0;
+}
+ul.discussion li.right {
+    background-color: var(--special-bg-second-color);
+    margin-left: auto;
+    text-align: right;
+    right: 0;
+}
+
+.faded {
+    opacity: 0.5;
+}
+
+.the-end {
+    text-shadow:
+        -1px -1px 0 var(--bg-color),
+         1px -1px 0 var(--bg-color),
+        -1px  1px 0 var(--bg-color),
+         1px  1px 0 var(--bg-color);
+    color: var(--special-text-color);
+    font-family: "Brush Script MT";
+    text-align: center;
+    font-size: 30px;
+}

@@ -1,0 +1,31 @@
+nav {
+    border-bottom: 1px solid var(--main-text-color);
+    background-color: var(--bg-color);
+    width: 100%;
+}
+nav ul {
+    padding: 0px 30px;
+    list-style: none;
+    display: flex;
+    height: 80px;
+}
+nav ul li {
+    margin: auto 40px;
+    display: flex;
+    height: 80px;
+}
+nav ul li::before {
+    display: none;
+}
+nav ul li a {
+    color: var(--main-text-color);
+    font-size: 25px;
+    margin: auto;
+}
+nav ul li:first-child {
+    margin-right: auto;
+}
+nav ul li a img {
+    height: 80px;
+    width: 80px;
+}

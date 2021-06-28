@@ -1,0 +1,40 @@
+.container {
+    background-color: unset;
+    padding: 0px 40px;
+}
+
+footer {
+    border-top: 1px solid var(--text-color);
+    background-color: var(--bg-color);
+    padding-top: 20px;
+    width: 100%;
+}
+footer ul {
+    padding: 0px 30px;
+    list-style: none;
+    display: flex;
+    height: 80px;
+}
+footer ul li {
+    margin: auto 30px;
+    display: flex;
+    height: 80px;
+}
+footer ul li::before {
+    display: none;
+}
+footer ul li a {
+    color: var(--text-color);
+    font-size: 25px;
+    margin: auto;
+}
+footer ul li:first-child {
+    margin-right: auto;
+}
+footer ul li a img[src*="github.png"] {
+    margin-bottom: -5px;
+}
+footer ul li a img[src*="icon.png"] {
+    height: 80px;
+    width: 80px;
+}

@@ -1,0 +1,27 @@
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: 'Segoe UI';
+    font-weight: 100;
+    font-size: 20px;
+    margin: 0px;
+}
+main {
+    padding: 40px;
+}
+.container {
+    background-color: var(--container-color);
+    padding: 40px;
+    width: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+::selection {
+    background: var(--special-text-color);
+}
+:is(.special, .the-end)::selection {
+    color: var(--text-color)
+}

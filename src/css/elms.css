@@ -1,0 +1,57 @@
+h1, h2, h3, h4, h5, h6 {
+    color: var(--main-text-color);
+}
+p {
+    padding: 10px;
+}
+a {
+    text-decoration: none;
+    color: var(--main-text-color);
+    font-size: 20px;
+}
+a:hover {
+    color: var(--special-text-color);
+}
+img {
+    -webkit-user-drag: none;
+    user-select: none;
+}
+button {
+    background-image: linear-gradient(to bottom right, var(--special-text-color) 0%, var(--special-bg-color) 100%);
+    background-color: var(--container-color);
+    color: var(--main-text-color);
+    transition: 0.2s transform;
+    font-family: 'Segoe UI';
+    border-radius: 10px;
+    font-weight: 100;
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid var(--bg-color);
+}
+button:active {
+    transform: scale(0.8);
+}
+code {
+    color: var(--special-text-color);
+}
+blockquote {
+    border-left: 20px solid var(--special-text-color);
+    padding-left: 10px;
+    text-align: left;
+    margin: 20px;
+    width: 100%;
+}
+ul {
+    padding-inline: 0px;
+    margin-inline: 0px;
+    margin-block: 0px;
+    list-style: none;
+}
+ul li::before {
+    color: var(--special-text-color);
+    margin-right: 10px;
+    position: relative;
+    content: "\2022";
+    font-size: 30px;
+    top: 5px;
+}
